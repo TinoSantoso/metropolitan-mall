@@ -1,0 +1,259 @@
+body {
+    font-family: 'Raleway';
+}
+
+.navbar-nav .nav-link.active {
+    color: #38887f !important; /* Warna tulisan putih */
+    background-color: white !important; /* Warna latar hijau */
+    border-radius: 5px; /* Untuk menambahkan sedikit efek corner radius */
+    padding: 5px 10px; /* Untuk memberikan ruang antara teks dan tepi */
+}
+
+@media (max-width: 767.98px) {
+    .logo-container img {
+        max-width: 150px; /* Adjust as needed */
+        display: block;
+        margin: 0 auto; /* Center the logo */
+    }
+}
+.navbar {
+    background-image: linear-gradient(to right, #38887f, #227266);
+}
+.navbar-nav .nav-link {
+    color: #fff; /* White color for menu items */
+}
+.custom-card {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-body {
+    height: 100%; /* Sesuaikan tinggi gambar sesuai kebutuhan Anda */
+    overflow: hidden; /* Untuk memastikan gambar tetap proporsional */
+}
+
+.custom-input {
+    border-radius: 20px;
+}
+
+.custom-btn {
+    border-radius: 20px;
+}
+.promo-card {
+    margin-bottom: 20px;
+}
+.promo-section {
+    background: white;
+    padding: 40px 0;
+}
+.promo-img {
+    border-radius: 10px; /* Membuat sudut gambar menjadi melengkung */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Membuat bayangan untuk efek tiga dimensi */
+    transition: transform 0.3s ease; /* Efek transisi saat gambar dihover */
+  }
+  .promo-img:hover {
+    transform: scale(1.05); /* Memperbesar gambar saat dihover */
+  }
+
+  /* Menghilangkan efek outline pada gambar saat di klik */
+  .promo-img:active {
+    outline: none;
+  }
+
+.header-text {
+        font-size: 14px;
+}
+.background-green {
+    background-color: #38887f; /* Warna hijau */
+    color: white; /* Warna teks putih */
+    padding: 20px;
+}
+.showcase .showcase-text {
+    padding: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.green-card {
+    background-color: #38877f; /* Warna hijau */
+    color: white; /* Warna teks putih */
+  }
+.custom-button {
+    background-color: white;
+    color: #38877f;
+    border-color: #38877f; /* Mengatur warna border */
+  }
+
+  /* Saat tombol dihover, latar belakangnya berubah menjadi hijau dan warna teks menjadi putih */
+  .custom-button:hover {
+    background-color: 38877f;
+    color: white;
+  }
+  .vertical-line {
+    border-right: 2px solid #38877f; /* Garis vertikal warna hitam */
+    height: 100%; /* Mengisi tinggi sesuai tinggi kolom */
+  }
+  .section-mgz {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #38877f;
+    color: white;
+    padding: 30px 0; /* Tambahkan padding atas dan bawah 30px */
+  }
+
+  .news-bg{
+    background-color: #e2e2e2;
+  }
+
+  .news-green-card {
+    background-color: #38877f; /* Warna hijau */
+    color: white; /* Warna teks putih */
+    height: 100%; /* Sesuaikan tinggi gambar sesuai kebutuhan Anda */
+    overflow: hidden; /* Untuk memastikan gambar tetap proporsional */
+  }
+
+
+  .directory-green-card {
+    background-color: #38877f; /* Warna hijau */
+    color: white; /* Warna teks putih */
+    overflow: hidden; /* Untuk memastikan gambar tetap proporsional */
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .media {
+    display: block;
+    text-decoration: none; /* Remove underline */
+    height: 650px;
+}
+.media:hover .card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Menampilkan bayangan pada hover */
+    transform: translateY(-5px); /* Menggeser card ke atas sedikit saat hover */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Efek transisi saat hover */
+}
+.mediapromo-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.mediapromo-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.mediapromo-item img {
+    transition: transform 0.5s ease;
+}
+
+.mediapromo-item:hover img {
+    transform: scale(1.1);
+}
+
+.mediapromo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.mediapromo-item:hover .mediapromo-overlay {
+    opacity: 1;
+}
+
+.mediapromo-overlay h3,
+.mediapromo-overlay p {
+    margin: 0;
+}
+.magazine-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.magazine-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.magazine-card .card-body {
+    padding: 20px;
+}
+
+.magazine-card .btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.facilities-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.facilities-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.facilities-card .card-body {
+    padding: 20px;
+}
+
+.facilities-card .btn {
+    width: 100%;
+}
+.image-container {
+    width: 150px; /* adjust as needed */
+    height: 150px; /* adjust as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
